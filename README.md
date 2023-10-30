@@ -2,7 +2,7 @@
 
 # SkyWatch - Real-Time Weather and Video Sharing App
 
-![SkyWatch Logo](app_logo.png)
+![SkyWatch Logo](https://github.com/getinph/skywatch/blob/main/assets/pngs/launcher_icon.png?raw=true)
 
 SkyWatch is a multi-platform Flutter application that combines the power of real-time weather updates with social video sharing. With the ability to share current weather conditions in video format, SkyWatch offers a unique blend of weather information and social media interaction.
 
