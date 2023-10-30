@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836310463607",
+    "project_id": "skywatch-836ad",
+    "storage_bucket": "skywatch-836ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836310463607:android:784da631fe9ca7cd0ec272",
+        "android_client_info": {
+          "package_name": "com.example.skywatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEqBn8EoQ-Wc4j7mVy4cAtd4CvperZUCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+name: skywatch
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.4
+  firebase_core: ^2.20.0
+  firebase_auth: ^4.12.0
+  firebase_storage: ^11.4.0
+  cloud_firestore: ^4.12.1
+  location: ^5.0.3
+  intl: ^0.18.1
+  video_player: ^2.7.2
+  lottie: ^2.7.0
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  mocktail: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  bloc_test: ^9.1.5
+  flutter_native_splash: ^2.3.5
+  flutter_launcher_icons: ^0.13.1
+
+# require any size square png with background (if not it is white)
+# run this command when setting : flutter pub run flutter_launcher_icons:main
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/pngs/launcher_icon.png"
+
+# require any size png
+# flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  color: "#0091ad"
+  image: assets/pngs/splash_screen_logo.png
+  android_12:
+    image: assets/pngs/splash_screen_logo.png
+    icon_background_color: "#0091ad"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lotties/
